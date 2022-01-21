@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CC8BB0;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2.5rem;
+}
+.container{
+    border: 2px solid #8E0151;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}.title-container{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3.5rem; 
+}
+.add-item-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#newTask{
+    outline: none;
+}
